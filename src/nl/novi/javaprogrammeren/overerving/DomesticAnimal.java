@@ -13,6 +13,7 @@ public abstract class DomesticAnimal extends Animal {
     }
 
     public String getOwner() {
+        System.out.println(owner);
         return owner;
     }
 

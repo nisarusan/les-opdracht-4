@@ -1,7 +1,7 @@
 package nl.novi.javaprogrammeren.overerving;
 
 public abstract class Animal {
-    private String animalName;
+    public String animalName;
     private String animalSex;
     private String animalFood;
     private String animalSound;
@@ -54,7 +54,6 @@ public abstract class Animal {
     // Alle dieren moeten kunnen bewegen
 
 
-
     // Wilde dieren:
     // naam van het hok
     // weekdag laatst gevoed
@@ -78,8 +77,6 @@ public abstract class Animal {
 
     // Kat:
     // binnen of buitenkat
-
-
 
 
 }
