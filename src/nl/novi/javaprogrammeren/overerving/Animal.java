@@ -1,4 +1,8 @@
 package nl.novi.javaprogrammeren.overerving;
+import nl.novi.javaprogrammeren.overerving.Cat;
+import nl.novi.javaprogrammeren.overerving.Wolf;
+import nl.novi.javaprogrammeren.overerving.Leeuw;
+import nl.novi.javaprogrammeren.overerving.Tiger;
 
 public abstract class Animal {
     public String animalName;

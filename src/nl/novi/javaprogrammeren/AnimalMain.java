@@ -1,9 +1,7 @@
 package nl.novi.javaprogrammeren;
 
-import nl.novi.javaprogrammeren.overerving.Animal;
-import nl.novi.javaprogrammeren.overerving.Cat;
-import nl.novi.javaprogrammeren.overerving.Wolf;
-import nl.novi.javaprogrammeren.overerving.Leeuw;
+import nl.novi.javaprogrammeren.overerving.*;
+
 
 public class AnimalMain {
     public static void main(String[] args) {
@@ -17,6 +15,14 @@ public class AnimalMain {
         Leeuw Simba = new Leeuw("Simba", "Male", "Animals", "GRRRRRRRRR", "None", "deer", "Lion", "None", "Not feeded", "Africa", "Caesar");
         GreyWolve.animalMakeSound();
         Simba.animalMakeSound();
+        Tiger redTiger = new Tiger("redTiger", "Male", "Small animals", "GRRRRR BRR", "Jungles", "None", "Liger", "Zoo", "Yesterday", "Africa", "4");
+
+        String[] tigerPropList = {redTiger.getAnimalName(), redTiger.getAnimalFood(), redTiger.getAnimalHouse(), redTiger.getCountryOfOrigin()};
+        for (int i = 0; i < tigerPropList.length - 1; i++) {
+            System.out.println(tigerPropList[i]);
+        }
+
+        redTiger.getAnimalFood();
         String[] getsList = {Simba.getAnimalFood(), Simba.getSpecies(), Simba.getAnimalFood(), Simba.getCountryOfOrigin(), Simba.getSpecies()};
         for (int i = 0; i < getsList.length - 1; i++) {
             System.out.println(getsList[i]);
